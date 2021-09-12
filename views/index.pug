@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  - let main = "Ingeniería de Software 2 - UNSA EPCC"
+  h1= main
+  h2= title
+  p Bienvenido a #{title} / #{main}
